@@ -441,7 +441,7 @@ async function callAgent(dataset, policy, selectedGroup, listRegions, aggregatio
         requestBody["aggregation"] = aggregation;
     }
 
-    const response = await fetch('http://127.0.0.1:5000/', {
+    const response = await fetch('https://vnalmeida.pythonanywhere.com/', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
